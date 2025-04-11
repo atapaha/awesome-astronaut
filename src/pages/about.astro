@@ -3,6 +3,8 @@ import '../styles/global.css';
 
 import Navigation from '../components/Navigation.astro';
 
+import Footer from '../components/Footer.astro';
+
 const pageTitle = 'About Alyssa'
 
 const identity ={
@@ -62,5 +64,6 @@ const textCase = "upperCase";
 	{skills.map((skill) => <li class="skill">{skill}</li>)}
 </ul>
 
+ <Footer />
 </body>
 </html>

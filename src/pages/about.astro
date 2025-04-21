@@ -24,7 +24,19 @@ const goal = 5;
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <h2>... and my new Astro site!</h2>
+<style is:global define:vars={{skillColor, fontWeight, textCase}}>
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
+	  .skill {
+       color: var(--skillColor);
+       font-weight: var(--fontWeight);
+       text-transform: var(--textCase);
+  }
+    </style>
+
+    <h1>... and my new Astro site!</h1>
 
   <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
 

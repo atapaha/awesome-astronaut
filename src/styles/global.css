@@ -1,14 +1,16 @@
 html {
-    background-color: #f1f5f9;
+    background-color: #eadcfc;
     font-family: sans-serif;
+
   }
   
   body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
     line-height: 1.5;
+    padding: 1rem;
+    overflow-x: hidden;
+
   }
   
   * {
@@ -19,6 +21,7 @@ html {
     margin: 1rem 0;
     font-size: 2.5rem;
   }
+
 
   /* nav styles */
   .hamburger {
@@ -41,6 +44,7 @@ html {
   background-color: #ff9776;
   display: none;
   margin: 0;
+  
 }
 
 .nav-links a {
